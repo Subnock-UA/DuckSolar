@@ -1,0 +1,26 @@
+{
+  "version": "b2.0.0",
+  "date": "2026-11-02",
+  "host_contract_tests": 12,
+  "pc_regression_tests": 5,
+  "server_api30_tests": 2,
+  "client_api33_tests": 3,
+  "windows_source_selfcheck": true,
+  "windows_frozen_selfcheck": true,
+  "helper_frozen_selfcheck": true,
+  "android_release_builds": true,
+  "physical_device_acceptance": false,
+  "live_equipment_operations": false,
+  "original_source_files_unchanged": 629,
+  "windows_authenticode_signed": false,
+  "english_default": true,
+  "ui_languages": [
+    "en",
+    "uk"
+  ],
+  "documentation_languages": [
+    "en",
+    "uk"
+  ],
+  "same_version_replacement": true
+}

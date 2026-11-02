@@ -1,0 +1,8 @@
+.gradle/
+.kotlin/
+**/build/
+**/__pycache__/
+*.pyc
+*.keystore
+*.jks
+local.properties

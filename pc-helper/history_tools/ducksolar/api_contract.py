@@ -1,0 +1,1 @@
+CLIENT_CONFIG_FIELDS = frozenset('pv_correction_factor inverter_self_consumption_w max_integration_gap_s graph_line_width pv_installed_kw weather_location_name weather_latitude weather_longitude weather_days weather_timeout_s graph_colors log_columns show_raw_parameters'.split())

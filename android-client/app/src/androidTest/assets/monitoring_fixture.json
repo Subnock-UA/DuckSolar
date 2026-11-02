@@ -1,0 +1,365 @@
+{
+  "grid.phases.L1.voltage": {
+    "value": 230.0,
+    "unit": "V",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "grid.phases.L1.frequency": {
+    "value": 50.0,
+    "unit": "Hz",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "output.phases.L1.voltage": {
+    "value": 230.0,
+    "unit": "V",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "output.phases.L1.frequency": {
+    "value": 50.0,
+    "unit": "Hz",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "output.apparent_power": {
+    "value": 600.0,
+    "unit": "VA",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "output.active_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "output.load_percent": {
+    "value": 50.0,
+    "unit": "%",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "dc.bus_voltage": {
+    "value": 300.0,
+    "unit": "V",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.channels.main.voltage": {
+    "value": 52.0,
+    "unit": "V",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.channels.main.charge_current": {
+    "value": 2.0,
+    "unit": "A",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.channels.main.soc": {
+    "value": 50.0,
+    "unit": "%",
+    "confidence": "estimated",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00",
+    "note": ""
+  },
+  "temperature.inverter": {
+    "value": 25.0,
+    "unit": "°C",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "pv.inputs.aggregate.current": {
+    "value": 2.0,
+    "unit": "A",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "estimated",
+    "measurement_kind": "estimated",
+    "stale": false,
+    "input_timestamps": [],
+    "age_s": 0,
+    "valid_for_s": 15,
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "pv.inputs.aggregate.voltage": {
+    "value": 300.0,
+    "unit": "V",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.scc_voltage": {
+    "value": 52.0,
+    "unit": "V",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.channels.main.discharge_current": {
+    "value": 2.0,
+    "unit": "A",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status_raw": {
+    "value": "00000000",
+    "unit": "",
+    "confidence": "unverified",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.service_raw": {
+    "value": "00000000",
+    "unit": "",
+    "confidence": "unverified",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.eeprom_version": {
+    "value": "00000000",
+    "unit": "",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "pv.total_power": {
+    "value": 500.0,
+    "unit": "W",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "estimated",
+    "measurement_kind": "estimated",
+    "stale": false,
+    "input_timestamps": [],
+    "age_s": 0,
+    "valid_for_s": 15,
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.extra_status_raw": {
+    "value": "110",
+    "unit": "",
+    "confidence": "unverified",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "pv.corrected_power": {
+    "value": 500.0,
+    "unit": "W",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "estimated",
+    "measurement_kind": "estimated",
+    "stale": false,
+    "input_timestamps": [],
+    "age_s": 0,
+    "valid_for_s": 15,
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "grid.estimated_import_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "estimated",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "grid.estimated_export_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "estimated",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.estimated_charge_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "estimated",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.configuration_changed": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.scc_firmware_updated": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.output_enabled": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.battery_voltage_stable": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.charging_enabled": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.pv_charging_enabled": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.utility_charging_enabled": {
+    "value": false,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.float_stage": {
+    "value": true,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "device.status.switched_on": {
+    "value": true,
+    "unit": "",
+    "confidence": "documented_profile",
+    "quality": "good",
+    "source": "synthetic",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "grid.import_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "estimated",
+    "source": "synthetic",
+    "quality": "good",
+    "measurement_kind": "estimated",
+    "selected_from": "grid.estimated_import_power",
+    "fallback_reason": "measurement_missing",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "grid.export_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "estimated",
+    "source": "synthetic",
+    "quality": "good",
+    "measurement_kind": "estimated",
+    "selected_from": "grid.estimated_export_power",
+    "fallback_reason": "measurement_missing",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "pv.raw_power": {
+    "value": 500.0,
+    "unit": "W",
+    "confidence": "verified_profile",
+    "source": "synthetic",
+    "quality": "good",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "output.pv_coverage_percent": {
+    "value": 50.0,
+    "unit": "%",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "estimated",
+    "measurement_kind": "estimated",
+    "stale": false,
+    "input_timestamps": [],
+    "age_s": 0,
+    "valid_for_s": 15,
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "grid.phases.L1.current": {
+    "value": 2.0,
+    "unit": "A",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "estimated",
+    "measurement_kind": "estimated",
+    "stale": false,
+    "input_timestamps": [],
+    "age_s": 0,
+    "valid_for_s": 15,
+    "direction": "none",
+    "timestamp": "2024-01-01T12:00:00+00:00"
+  },
+  "battery.channels.main.remaining_energy": {
+    "value": 9.321,
+    "unit": "кВт·год",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "estimated",
+    "timestamp": "2024-01-01T12:00:00+00:00",
+    "note": ""
+  },
+  "battery.channels.main.inverter_soc": {
+    "value": 50.0,
+    "unit": "%",
+    "quality": "good",
+    "source": "synthetic",
+    "confidence": "untrusted",
+    "timestamp": "2024-01-01T12:00:00+00:00",
+    "note": "Показник інвертора збережено для діагностики; не використовується для оцінки залишку"
+  }
+}

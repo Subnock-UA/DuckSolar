@@ -1,0 +1,82 @@
+{
+  "kind": "forecast",
+  "comparison": {
+    "day": "2026-11-01",
+    "period_end": "2026-11-01T12:00:00+02:00",
+    "actual_as_of": "2026-11-01T12:30:00+02:00",
+    "complete": false,
+    "forecast_day_kwh": 6,
+    "forecast_period_kwh": null,
+    "actual_period_kwh": null,
+    "observed_kwh": 3.8,
+    "observed_hours": 3,
+    "partial_hours": 1,
+    "error_kwh": null,
+    "error_pct": null,
+    "covered_hours": 0,
+    "expected_hours": 0,
+    "missing_hours": 0,
+    "issued_at": "2026-11-01T11:15:00+02:00",
+    "note": "Факт показано за всіма наявними записами незалежно від часу видання прогнозу. Неповні години не доповнюються й не прирівнюються до нуля. Похибка: прогноз − факт; лише за завершені години після видання прогнозу з ≥95% покриттям кожної години.",
+    "diagnostics": {
+      "version": 4,
+      "input_actual_hours": 3,
+      "forecast_hours": 3,
+      "visible_actual_hours": 3,
+      "partial_actual_hours": 1,
+      "comparable_hours": 0
+    }
+  },
+  "graph": {
+    "kind": "bars",
+    "mode": "energy",
+    "suppress_summary": true,
+    "points": [
+      {
+        "x": 0,
+        "label": "2026-11-01T10:00:00+02:00",
+        "forecast": 2,
+        "actual": 1.7,
+        "coverage_seconds": {
+          "actual": 3600
+        },
+        "actual_partial": false
+      },
+      {
+        "x": 1,
+        "label": "2026-11-01T11:00:00+02:00",
+        "forecast": 2,
+        "actual": 1.9,
+        "coverage_seconds": {
+          "actual": 3600
+        },
+        "actual_partial": false
+      },
+      {
+        "x": 2,
+        "label": "2026-11-01T12:00:00+02:00",
+        "forecast": 2,
+        "actual": 0.2,
+        "coverage_seconds": {
+          "actual": 1500
+        },
+        "actual_partial": true
+      }
+    ],
+    "note": "Факт показано за всіма наявними записами незалежно від часу видання прогнозу. Неповні години не доповнюються й не прирівнюються до нуля. Похибка: прогноз − факт; лише за завершені години після видання прогнозу з ≥95% покриттям кожної години.",
+    "fields": [
+      {
+        "key": "forecast",
+        "label": "Прогноз",
+        "unit": "кВт·год"
+      },
+      {
+        "key": "actual",
+        "label": "Факт (наявні дані)",
+        "unit": "кВт·год"
+      }
+    ]
+  },
+  "actual_kwh": 3.8,
+  "hourly": []
+}

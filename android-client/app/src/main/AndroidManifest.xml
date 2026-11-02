@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<application android:name=".DuckSolarApplication" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:label="Duck Solar b2" android:theme="@style/DuckSolarTheme" android:allowBackup="false" android:usesCleartextTraffic="true" android:supportsRtl="true">
+<service android:name=".WidgetRefreshJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+<activity android:name=".InsightsActivity" android:exported="false" android:screenOrientation="portrait"/>
+<receiver android:name=".SolarWidget" android:exported="false"><intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter><meta-data android:name="android.appwidget.provider" android:resource="@xml/solar_widget"/></receiver>
+<activity android:name=".RecordsActivity" android:exported="false" android:screenOrientation="portrait"/>
+<activity android:name=".WeatherActivity" android:exported="false" android:screenOrientation="portrait"/>
+<activity android:name=".NotificationSettingsActivity" android:exported="false" android:screenOrientation="portrait"/>
+<service android:name=".NotificationService" android:exported="false" android:foregroundServiceType="connectedDevice"/>
+<receiver android:name=".NotificationResumeReceiver" android:exported="false"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"/><action android:name="android.intent.action.MY_PACKAGE_REPLACED"/></intent-filter></receiver>
+<activity android:name=".BalanceActivity" android:exported="false" android:screenOrientation="portrait"/>
+<activity android:name=".GraphFullscreenActivity" android:exported="false" android:screenOrientation="sensorLandscape"/>
+<activity android:name=".ParameterActivity" android:exported="false" android:screenOrientation="portrait"/>
+<activity android:name=".MainActivity" android:exported="true" android:screenOrientation="portrait"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+<activity android:name=".ConnectionHealthActivity" android:exported="false"/></application></manifest>

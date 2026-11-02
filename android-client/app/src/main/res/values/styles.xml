@@ -1,0 +1,11 @@
+<resources>
+ <color name="launcher_background">#032443</color>
+ <item type="id" name="style_kind"/><item type="id" name="style_icon"/><item type="id" name="style_ready"/>
+ <style name="DuckSolarTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+  <item name="android:fontFamily">sans-serif</item><item name="android:colorAccent">#007E7D</item>
+  <item name="android:windowLightStatusBar">true</item><item name="android:windowLightNavigationBar">true</item>
+  <item name="android:statusBarColor">#EEF5F7</item><item name="android:navigationBarColor">#EEF5F7</item>
+  <item name="android:windowBackground">#EEF5F7</item><item name="android:textColorPrimary">#183043</item>
+  <item name="android:textColorSecondary">#667C8B</item><item name="android:colorControlActivated">#007E7D</item>
+ </style>
+</resources>

@@ -1,0 +1,283 @@
+{
+  "connected": true,
+  "route": "local",
+  "state": {
+    "stale": false,
+    "device_id": "inverter-1",
+    "updated": "2024-01-01T12:00:00+00:00",
+    "warnings_display": "",
+    "descriptor": {
+      "name": "Daxtromn AGH 6.2 кВт"
+    },
+    "normalized": {
+      "metrics": {
+        "grid.phases.L1.voltage": {
+          "value": 230.0,
+          "unit": "V",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "grid.phases.L1.frequency": {
+          "value": 50.0,
+          "unit": "Hz",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "output.phases.L1.voltage": {
+          "value": 230.0,
+          "unit": "V",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "output.phases.L1.frequency": {
+          "value": 50.0,
+          "unit": "Hz",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "output.apparent_power": {
+          "value": 600,
+          "unit": "VA",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "output.active_power": {
+          "value": 480,
+          "unit": "W",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "output.load_percent": {
+          "value": 8,
+          "unit": "%",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "dc.bus_voltage": {
+          "value": 400,
+          "unit": "V",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "battery.channels.main.voltage": {
+          "value": 52.0,
+          "unit": "V",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "battery.channels.main.charge_current": {
+          "value": 0.0,
+          "unit": "A",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "battery.channels.main.soc": {
+          "value": 100,
+          "unit": "%",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "temperature.inverter": {
+          "value": 35.0,
+          "unit": "°C",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "pv.inputs.aggregate.current": {
+          "value": 0.0,
+          "unit": "A",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "pv.inputs.aggregate.voltage": {
+          "value": 0.0,
+          "unit": "V",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "battery.scc_voltage": {
+          "value": 0.0,
+          "unit": "V",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "battery.channels.main.discharge_current": {
+          "value": 0.0,
+          "unit": "A",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "device.status_raw": {
+          "value": "00010000",
+          "unit": "",
+          "confidence": "unverified",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "device.service_raw": {
+          "value": "00",
+          "unit": "",
+          "confidence": "unverified",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "device.eeprom_version": {
+          "value": "00",
+          "unit": "",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "pv.total_power": {
+          "value": 0.0,
+          "unit": "W",
+          "confidence": "verified_profile",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "device.extra_status_raw": {
+          "value": "010",
+          "unit": "",
+          "confidence": "unverified",
+          "source": "QPIGS",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "pv.corrected_power": {
+          "value": 0.0,
+          "unit": "W",
+          "confidence": "estimated",
+          "source": "energy_model",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "grid.estimated_import_power": {
+          "value": 500.0,
+          "unit": "W",
+          "confidence": "estimated",
+          "source": "energy_model",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "grid.estimated_export_power": {
+          "value": 0.0,
+          "unit": "W",
+          "confidence": "estimated",
+          "source": "energy_model",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "battery.estimated_charge_power": {
+          "value": 0.0,
+          "unit": "W",
+          "confidence": "estimated",
+          "source": "energy_model",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00"
+        },
+        "grid.import_power": {
+          "value": 500.0,
+          "unit": "W",
+          "confidence": "estimated",
+          "source": "energy_model",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00",
+          "measurement_kind": "estimated",
+          "selected_from": "grid.estimated_import_power",
+          "fallback_reason": "measurement_missing"
+        },
+        "grid.export_power": {
+          "value": 0.0,
+          "unit": "W",
+          "confidence": "estimated",
+          "source": "energy_model",
+          "quality": "good",
+          "timestamp": "2024-01-01T12:00:00+00:00",
+          "measurement_kind": "estimated",
+          "selected_from": "grid.estimated_export_power",
+          "fallback_reason": "measurement_missing"
+        }
+      },
+      "grid": {
+        "phases": [
+          {
+            "id": "L1",
+            "voltage": 230.0,
+            "frequency": 50.0
+          }
+        ],
+        "available": 1,
+        "flow_validation": {}
+      },
+      "output": {
+        "phases": [
+          {
+            "id": "L1",
+            "voltage": 230.0,
+            "frequency": 50.0
+          }
+        ],
+        "active_power": 480
+      },
+      "pv": {
+        "mppts": [],
+        "inputs": [
+          {
+            "id": "aggregate",
+            "voltage": 0.0,
+            "current": 0.0
+          }
+        ],
+        "total_power": 0.0
+      },
+      "battery": {
+        "modules": [],
+        "channels": [
+          {
+            "id": "main",
+            "voltage": 52.0,
+            "soc": 100,
+            "charge_current": 0.0,
+            "discharge_current": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

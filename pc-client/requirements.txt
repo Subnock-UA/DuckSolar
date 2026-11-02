@@ -1,0 +1,6 @@
+matplotlib==3.11.2
+Pillow==12.3.0
+pystray==0.19.5
+spake2==0.9
+cryptography==50.0.2
+tzdata==2026.5

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "counts": {
+    "files": 1190,
+    "zip_members": 5907,
+    "pyinstaller_members": 929,
+    "code_objects": 36168
+  },
+  "findings": []
+}

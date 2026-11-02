@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/widget_background" android:padding="6dp">
+ <TextView android:layout_width="match_parent" android:layout_height="18dp" android:text="DUCK SOLAR" android:textColor="#E8F8F3" android:textStyle="bold" android:textSize="12sp" android:letterSpacing="0.10"/>
+ <ImageView android:id="@+id/widget_rings" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:scaleType="fitCenter" android:contentDescription="PV, навантаження та заряд АКБ"/>
+ <TextView android:id="@+id/widget_grid" android:layout_width="match_parent" android:layout_height="20dp" android:maxLines="1" android:ellipsize="end" android:text="Grid —" android:textColor="#D6EAE7" android:textSize="11sp" android:gravity="center_vertical"/>
+ <LinearLayout android:layout_width="match_parent" android:layout_height="40dp" android:gravity="center_vertical">
+  <TextView android:id="@+id/widget_stamp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:maxLines="2" android:ellipsize="end" android:text="Open Duck Solar" android:textColor="#ACC7C7" android:textSize="10sp" android:gravity="center_vertical"/>
+  <TextView android:id="@+id/widget_refresh" android:layout_width="86dp" android:layout_height="match_parent" android:gravity="center" android:text="↻ Refresh" android:textStyle="bold" android:textSize="12sp" android:includeFontPadding="false" android:textColor="#70E4BD" android:background="#204B47" android:contentDescription="Refresh widget data"/>
+ </LinearLayout>
+</LinearLayout>
