@@ -101,7 +101,7 @@ class Checks(unittest.TestCase):
    finally:client.stop('fixture_end');server.shutdown();server.server_close();thread.join(timeout=3)
  def test_every_android_client_function_exposed_or_platform_adapted(self):
   import ast
-  root=Path(__file__).resolve().parents[1];source=(root/'desktop/pages.py').read_text();app=(root/'desktop/app.py').read_text();combined=source+app
+  root=Path(__file__).resolve().parents[1];source=(root/'desktop/pages.py').read_text(encoding='utf-8');app=(root/'desktop/app.py').read_text(encoding='utf-8');combined=source+app
   for name in ['graph_start','graph_cancel','balance_start','balance_cancel','finance_month','add_meter_reading','event_rows','history_dates','parameter_snapshot','refresh_parameters','submit_parameter','parameter_command_status','tariff_status','tariff_check','weather_status','weather_settings','weather_start','weather_cancel','weather_profile','notification_settings','switch_route']:
    self.assertIn(name,combined)
   from desktop.pages import ENTRIES

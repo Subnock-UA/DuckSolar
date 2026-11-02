@@ -4,6 +4,8 @@
 
 ## b2.0.0
 
+- Explicit UTF-8 when reading source files in the PC parity test fixes Windows cp1252 CI failures. Checkout v5 and setup-python v6 use Node.js 24; Python remains 3.11.
+
 - Separate public line of all four programs, with distinct Android IDs, ports,
   Windows storage, shortcuts/autostart/mutex and equipment-free first startup.
 - Blank identity/network defaults; removed private coordinates, local build paths,

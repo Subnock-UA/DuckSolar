@@ -40,3 +40,8 @@ production updates or GitHub publication was performed. Focused emulator tests
 do not prove compatibility with every model/firmware/device. Original b1 source
 files and published binaries are checked against their existing baseline;
 working b1 installations are not used as test roots.
+
+
+## GitHub Actions encoding correction
+
+Explicit UTF-8 when reading source files in the PC parity test fixes Windows cp1252 CI failures. Checkout v5 and setup-python v6 use Node.js 24; Python remains 3.11. Reproduced the exact byte 0x9d/position330 failure on Python3.11 by simulating cp1252 as the default Path.read_text encoding. After the fix all five PC regressions pass with this simulation and with normal defaults. The twelve host contracts and source audit also pass. A local run is not a hosted GitHub Actions result.
